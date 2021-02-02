@@ -32,7 +32,7 @@ namespace Style{
             .then((datacode) => {
                 document.writeln(`
 <style>
-${datacode}
+${String(datacode)}
 </style>
 `)
             })
